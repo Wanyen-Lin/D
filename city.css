@@ -1,0 +1,110 @@
+body{
+	background-color: #fff3cd;
+	font-family: 'Noto Sans TC', sans-serif;
+	margin:0px;
+}
+
+header {
+ height: 50px;
+ position: fixed;
+ left:0;
+ right:0;
+ background: pink;
+ z-index: 200;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 17px
+}
+
+a:hover{
+	background-color: white;
+	border-radius: 2px;
+}
+div.title{
+	display: block;
+	font-size: 50px;
+	text-align:center;
+
+}
+
+
+
+.title > span{
+
+	position: absolute;
+	top: 260px;
+	left: 630px;
+
+}
+
+.pic{
+	opacity: 30%;
+}
+
+.hos{
+	font-weight: 100;
+}
+
+.hos > p{
+	background-color: #ffcb74;
+	width: 80%;
+}
+
+/*縣市名稱*/
+h1{
+    font-size: 30px;
+	border:1px solid black;
+	width:110px;
+	text-align: center;
+	font-weight: 100;
+	padding: 10px
+}
+
+div.hos{
+	height: 500px;
+}
+
+#one{
+	position: absolute;
+	left:20%;
+	top:650px;
+	width:25%;
+	font-size: 18px;
+
+}
+
+#two{
+	position: absolute;
+    left:60%;
+    top:650px;
+	width:25%;
+	font-size: 18px;
+}
+
+#three{
+	position: absolute;
+    left:60%;
+    top:1250px;
+	width:25%;
+	font-size: 18px;
+}
+
+#four{
+	position: absolute;
+    left:20%;
+    top:1250px;
+	width:25%;
+	font-size: 18px;
+}
+
+#five{
+	position: absolute;
+    left:20%;
+    top:1850px;
+	width:25%;
+	font-size: 18px;
+}

@@ -1,0 +1,95 @@
+body{
+	background-color: #fff3cd;
+	font-family: 'Noto Sans TC', sans-serif;
+	margin:0px;
+}
+/*bar*/
+header {
+ height: 50px;
+ position: fixed;
+ left:0;
+ right:0;
+ background: pink;
+ z-index: 200;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 17px
+}
+
+a:hover{
+	background-color: white;
+	border-radius: 2px;
+}
+
+.title > span{
+
+	position: absolute;
+	top: 260px;
+	left: 630px;
+
+}
+
+.pic{
+	opacity: 30%;
+}
+/*就醫資訊(文字)*/
+.title{
+	display: block;
+	font-size: 50px;
+	text-align:center;
+
+}
+
+.title2{
+	font-size: 25px;
+	margin-left:20%;
+
+}
+/*照片*/
+.map{
+	text-align: center
+}
+/*北中南東區的文字*/
+.area{
+	font-size: 30px
+}
+#n:hover{
+	background-color: pink;
+	border-radius: 2px;
+}
+#m:hover{
+	background-color: pink;
+	border-radius: 2px;
+}
+#s:hover{
+	background-color: pink;
+	border-radius: 2px;
+}
+#e:hover{
+	background-color: pink;
+	border-radius: 2px;
+}
+#n{
+	position: absolute;
+	left:660px;
+	top:700px;
+}
+#m{
+	position: absolute;
+	left:530px;
+	top:840px;
+}
+#s{
+	position: absolute;
+	left:510px;
+	top:1070px;
+}
+#e{
+	position: absolute;
+	left:920px;
+	top:970px;
+}

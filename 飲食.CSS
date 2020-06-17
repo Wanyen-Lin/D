@@ -1,0 +1,230 @@
+body{
+	background-color: #fff3cd;
+	font-family: 'Noto Sans TC', sans-serif;
+	margin:0px;
+}
+header {
+ height: 50px;
+ position: fixed;
+ left:0;
+ right:0;
+ background: pink;
+ z-index: 200;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 17px
+}
+
+a:hover{
+	background-color: white;
+	border-radius: 2px;
+}
+
+div.title{
+	display: block;
+	font-size: 50px;
+	text-align:center;
+
+	
+}
+
+.title > span {
+	position: absolute;
+	top: 260px;
+	left: 630px;
+	color: black;
+	
+}
+
+.title > img {
+
+	opacity:30%;
+}
+
+
+
+.title1{
+    position: absolute;
+    font-size: 18px;
+    width:45%;
+    text-align:center;
+	left: 30%;
+	margin-top: -20px
+    
+}
+
+
+/*div.content{
+    position: relative;
+    
+	
+}*/
+
+
+.category{
+	
+	display: inline-block;
+	background-color: white;
+	border:1px solid white;
+	text-align: center;
+	width: 150px;
+	height: 70px;
+	padding-top: -200px;
+    margin-left: 300px;
+    margin-right: -120px;
+    color:black;
+}
+
+
+.category:hover{
+
+	background-color: pink;
+}
+
+.text{
+	position: absolute;
+    color: black;
+    background-color: pink;
+    top: -20px;
+    left: -30px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+	border-radius: 15px;
+	font-size: 20px;
+
+}
+
+
+
+
+div.content2{
+	position: relative;
+	left:20%;
+	bottom:-160px;
+	width:25%;
+	font-size: 18px;
+	top: 70%;
+	font-size: 18px;
+	border:5px solid #ffffff;
+	padding: 25px;
+}
+
+
+div.content2-1{
+	position: absolute;
+    left:58%;
+    bottom: -45%;
+	width:25%;
+	font-size: 18px;
+
+
+}
+
+
+div.content3{
+	position: absolute;
+	left:20%;
+	bottom:-120%;
+	width:25%;
+	font-size: 18px;
+
+	
+	
+}
+
+
+div.content3-1{
+	position: absolute;
+    left:55%;
+    bottom: -110%;
+	width:25%;
+	font-size: 18px;
+	border:5px solid #ffffff;
+	padding: 25px;
+}
+
+div.content4{
+	position: absolute;
+	left:20%;
+	bottom:-180%;
+	width:25%;
+	font-size: 18px;
+	border:5px solid #ffffff;
+	padding: 25px;
+}
+
+
+div.content4-1{
+	position: absolute;
+    left:58%;
+    bottom:-175%;
+	width:25%;
+
+
+	
+}
+
+div.content5{
+	position: absolute;
+	left:20%;
+	bottom:-240%;
+	width:25%;
+	font-size: 18px;
+
+
+}
+
+
+div.content5-1{
+	position: absolute;
+    left:55%;
+    bottom: -245%;
+	width:25%;
+	border:5px solid #ffffff;
+	padding: 25px;
+	
+}
+
+
+div.content6{
+	position: absolute;
+	left:20%;
+	bottom:-310%;
+	width:25%;
+	font-size: 18px;
+	border:5px solid #ffffff;
+	padding: 25px;
+}
+
+
+div.content6-1{
+	position: absolute;
+    left:58%;
+    bottom: -300%;
+	width:25%;
+	
+
+}
+
+
+h1{
+	font-size: 25px;
+	border:1px solid black;
+	width:130px;
+	text-align: center;
+	font-weight: 100;
+	padding: 10px
+}
+
+
+
+img{
+	text-align: right;
+	
+
+}

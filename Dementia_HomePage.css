@@ -1,0 +1,52 @@
+body{
+    background-color: #fff3cd;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin:0px;
+}
+
+.title{
+    
+    text-align: center;
+    border: black 5px;
+    width: 400px;
+   
+    border-radius:10px;
+    background-color: white;
+    margin-left: 520px;
+    margin-top: 190px;
+    
+}
+
+.title_1{
+    font-size: 70px;
+   
+}
+header {
+ height: 50px;
+ position: fixed;
+ left:0;
+ right:0;
+ background: pink;
+ z-index: 200;
+ top: -5px;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 17px;
+ 
+}
+a:hover{
+    background-color: white;
+    border-radius: 2px;
+}
+
+.picture{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: -100px;
+
+
+}

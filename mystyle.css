@@ -1,0 +1,16 @@
+nav{font-family: 微軟正黑體;font-weight:bold;color: black
+}
+header {
+ top:10px;
+ height: 50px;
+ position: fixed;
+ left:0;
+ right:0;
+ background: #fff000;
+}
+.flex-nav {
+    display: flex;justify-content: center;justify-content: space-evenly
+}
+
+
+  
